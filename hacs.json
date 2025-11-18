@@ -1,7 +1,8 @@
 {
   "name": "Aiks Custom Card",
-  "content_in_root": true,
-  "filename": "RosCard.js",  
+  "content_in_root": false,
+  "javascript": true, 
+  "filename": "dist/RosCard.js",  
   "render_readme": true,
   "version": "1.0.0", 
   "homeassistant": "2023.7.0"}

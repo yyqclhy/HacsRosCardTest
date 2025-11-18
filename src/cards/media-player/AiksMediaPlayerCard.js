@@ -78,4 +78,12 @@ export class AiksMediaPlayerCard extends AiksControlBase {
   getCardSize() {
     return 4;
   }
+
+  static async getConfigElement() {
+    return document.createElement('aiks-media-player-card-editor');
+  }
+
+  static getStubConfig() {
+    return { entities: [] };
+  }
 }

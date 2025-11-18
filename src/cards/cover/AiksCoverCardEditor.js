@@ -1,3 +1,5 @@
+import { AiksControlBase } from '../../base/AiksControlBase.js';
+
 export class AiksCoverCardEditor extends AiksControlBase {
   setConfig(config) {
     this._config = config || {};

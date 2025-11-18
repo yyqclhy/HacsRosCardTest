@@ -31,7 +31,7 @@ export class AiksLightCard extends AiksControlBase {
       ...config,
       light_name: config.light_name || (this._language === 'zh' ? '未命名灯光' : 'Unnamed Light'),
       entities: Array.isArray(config?.entities) ? [...config.entities] : [],
-      icon_path: config.icon_path || '/local/community/RosCard/icon_img/icon_light.png',
+      icon_path: config.icon_path || '/local/community/HacsRosCardTest/icon_img/icon_light.png',
     };
     if (this._hass) this.render();
   }
